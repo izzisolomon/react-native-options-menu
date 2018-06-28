@@ -5,10 +5,6 @@ To Download: run yarn add react-native-options-menu.
 
 Usage example: 
 
-import OptionsMenu from 'react-native-options-menu'
-const MoreIcon = require("../../assets/more/more.png");
-
-
                      <OptionsMenu
                         button={MoreIcon}
                         buttonStyle={{ width: 32, height: 8, margin: 7.5, resizeMode: "contain" }}
@@ -21,7 +17,7 @@ const MoreIcon = require("../../assets/more/more.png");
                            
 Note that button is a required prop (pass in a png of the desired button).
 
-Destructive index in an Ios only prop. It will appear as a red index. 
+Destructive index in an IOS only prop. It will appear as a red index. 
 
 Options: an array of strings that will be displayed in the menu.
 

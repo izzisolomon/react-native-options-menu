@@ -29,5 +29,5 @@ Actions: an array of functions to be executed for every menu item. Note that the
 
 ![Screenshot](ios_screenshot.png)
 
-![Screenshot](android_screenshot.png)
+![Screenshot](android_screenshot.jpg)
 

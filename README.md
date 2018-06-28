@@ -27,3 +27,7 @@ Options: an array of strings that will be displayed in the menu.
 
 Actions: an array of functions to be executed for every menu item. Note that the orders of options an actions have to match.
 
+![Screenshot](ios_screenshot.png)
+
+![Screenshot](android_screenshot.png)
+

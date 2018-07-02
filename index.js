@@ -52,10 +52,7 @@ export default class PopupMenu extends React.Component {
         }
     };
     render() {
-        let button = (
-           
-        );
-
+        
         if (Platform.OS === "web")
         {
             return (

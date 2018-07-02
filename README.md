@@ -1,5 +1,5 @@
 # react-native-options-menu
-A native looking options dialog for IOS, and Android (Web coming soon)
+A native looking options dialog for IOS, and Android and Web.
 
 To Download: run yarn add react-native-options-menu.
 

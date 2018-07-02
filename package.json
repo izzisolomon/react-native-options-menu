@@ -1,35 +1,35 @@
 {
-    "name": "react-native-options-menu",
-    "version": "1.0.0",
-    "description": "A native looking options dialog for Ios, Android and Web",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/izzisolomon/react-native-options-menu.git"
-    },
-    "keywords": [
-      "react-native",
-      "react-native-menu",
-      "react-native-options-menu",
-      "react-native-popup-menu",
-      "overflow",
-      "menu",
-      "options",
-      "react-component",
-      "ios",
-      "android",
-      "web"
-    ],
-    "author": "Izzi Solomon",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/izzisolomon/react-native-options-menu/issues"
-    },
-    "peerDependencies": {
-      "react-native": ">=0.20.0"
-    },
-    "homepage": "https://github.com/izzisolomon/react-native-options-menu#readme"
-  }
+  "name": "react-native-options-menu",
+  "version": "1.0.1",
+  "description": "A native looking options dialog for Ios, Android and Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzisolomon/react-native-options-menu.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-menu",
+    "react-native-options-menu",
+    "react-native-popup-menu",
+    "overflow",
+    "menu",
+    "options",
+    "react-component",
+    "ios",
+    "android",
+    "web"
+  ],
+  "author": "Izzi Solomon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izzisolomon/react-native-options-menu/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "homepage": "https://github.com/izzisolomon/react-native-options-menu#readme"
+}

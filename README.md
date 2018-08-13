@@ -1,12 +1,12 @@
 # react-native-options-menu
 A native looking options dialog for IOS, and Android and Web.
 
-To Download: run yarn add react-native-options-menu.
+To Download, run: yarn add react-native-options-menu, or npm install -s react-native-options-menu.
 
 Usage example: 
 
-   import OptionsMenu from "react-native-options-menu";
-   const MoreIcon = require("../../assets/more/more.png");
+    import OptionsMenu from "react-native-options-menu";
+    const MoreIcon = require("../../assets/more/more.png");
 
     <OptionsMenu
       button={MoreIcon}

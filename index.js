@@ -27,7 +27,7 @@ export default class PopupMenu extends React.Component {
         let options = this.props.options;
         if (Platform.OS === "ios") {
             let destructiveIndex = -1;
-            if (this.props.destructiveIndex) {
+            if (Number.isInteger(this.props.destructiveIndex) && this.props.destructiveIndex >= 0) {
                 destructiveIndex = this.props.destructiveIndex;
             }
             ActionSheetIOS.showActionSheetWithOptions(

@@ -18,6 +18,17 @@ Usage example:
                            
 Note that button is a required prop (pass in a png of the desired button).
 
+As an alternative to the button and style props, you can just pass in a full custom component: 
+
+
+    const myIcon = (<Icon name="rocket" size={30} color="#900" />)
+    <OptionsMenu
+      customButton={myIcon}
+      destructiveIndex={1}
+      options={["Edit", "Delete", "Cancel"]}
+      actions={[this.editPost, this.deletePost]}/>
+
+
 Destructive index in an iOS only prop. It will appear as a red index. 
 
 Options: an array of strings that will be displayed in the menu.

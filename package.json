@@ -1,6 +1,6 @@
 {
   "name": "react-native-options-menu",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A native looking options dialog for Ios, Android and Web",
   "main": "index.js",
   "scripts": {

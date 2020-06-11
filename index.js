@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
   Image,
   Text,
-  TextInput
 } from "react-native";
 
 export default class PopupMenu extends React.Component {
@@ -115,13 +114,16 @@ export default class PopupMenu extends React.Component {
     ) : (
       this.props.customButton
     );
+
+    const TriggerComponent = this.props.triggerComponent || TouchableOpacity;
+
     if (Platform.OS === "web") {
       return (
         <View>
           <View>
-            <TouchableOpacity ref={"menu"} onPress={this.handlePressWeb}>
+            <TriggerComponent ref={"menu"} onPress={this.handlePressWeb}>
               {component}
-            </TouchableOpacity>
+            </TriggerComponent>
           </View>
           {options}
         </View>
@@ -129,9 +131,9 @@ export default class PopupMenu extends React.Component {
     } else {
       return (
         <View>
-          <TouchableOpacity ref={"menu"} onPress={this.handlePress}>
+          <TriggerComponent ref={"menu"} onPress={this.handlePress}>
             {component}
-          </TouchableOpacity>
+          </TriggerComponent>
         </View>
       );
     }

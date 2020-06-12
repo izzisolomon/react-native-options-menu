@@ -115,15 +115,16 @@ export default class PopupMenu extends React.Component {
       this.props.customButton
     );
 
-    const TriggerComponent = this.props.triggerComponent || TouchableOpacity;
+		const renderTriggerComponent =
+      this.props.renderTriggerComponent
+      || ((children, ref, onPress) => (<TouchableOpacity ref={ref} onPress={onPress}>{children}</TouchableOpacity>));
+
 
     if (Platform.OS === "web") {
       return (
         <View>
           <View>
-            <TriggerComponent ref={"menu"} onPress={this.handlePressWeb}>
-              {component}
-            </TriggerComponent>
+				{renderTriggerComponent(component, "menu", this.handlePressWeb)}
           </View>
           {options}
         </View>
@@ -131,11 +132,10 @@ export default class PopupMenu extends React.Component {
     } else {
       return (
         <View>
-          <TriggerComponent ref={"menu"} onPress={this.handlePress}>
-            {component}
-          </TriggerComponent>
+				{renderTriggerComponent(component, "menu", this.handlePress)}
         </View>
       );
     }
   }
 }
+

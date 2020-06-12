@@ -35,7 +35,7 @@ Options: an array of strings that will be displayed in the menu.
 
 Actions: an array of functions to be executed for every menu item. Note that the orders of options an actions have to match.
 
-By default the component used to handle the menu triggering is a `TouchableOpacity`, that can be changed by using the `triggerComponent` prop, where you can pass any other component (like `TouchableHighlight` for example) to handle that event. Custom made components can also be used, but those components need to able to handle the `ref` and `onPress` properties to work properly.
+By default the component used to handle the menu triggering is a `TouchableOpacity`, that can be changed by using the `renderTriggerComponent` prop, where you can pass a function responsible to render the trigger component, that function must receive the following parameters `children`, `ref`, `onPress`, and return the Component.
 
 
 iOS Screenshot: 
